@@ -1,10 +1,7 @@
-import "./styles.css";
+const arr1 = ["test", "hoge"];
+const arr2 = [...arr1];
+console.log(arr1, arr2);
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+const arr3 = arr1;
+arr3[0] = "fixed!"; //参照渡し
+console.log(arr1, arr3);
