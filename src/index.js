@@ -89,3 +89,18 @@ console.log(fee);
 const num2 = 100;
 const fee2 = num2 && "何か設定されました";
 console.log(fee2);
+
+const func3 = (num1, num2) => num1 + num2;
+
+console.log(func3(1, 3));
+
+const myProfile = ["Jerk", "28"];
+const [name, age] = myProfile;
+const message = `My name is ${name} I'm ${age} years old now`;
+
+console.log(message);
+
+const sayHello = (name = "Guest") => console.log(`Hey ${name}!!`);
+
+sayHello(name);
+sayHello("John");
