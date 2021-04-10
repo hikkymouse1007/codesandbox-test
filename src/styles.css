@@ -22,10 +22,6 @@ button:hover {
   cursor: pointer;
 }
 
-li {
-  margin-right: 8px;
-}
-
 .input-area {
   background-color: #c1ffff;
   width: 400px;
@@ -63,4 +59,5 @@ li {
 .list-row {
   display: flex;
   align-items: center;
+  padding-bottom: 4px;
 }
